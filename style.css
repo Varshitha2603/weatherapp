@@ -1,0 +1,138 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    background-image: url('backimg6.jpg');
+   background-repeat: no-repeat;
+    background-size: cover;
+    height: 668px;
+}
+.container .header
+{
+    display: flex;
+    align-items: center;
+}
+.container .header .logo
+{
+    display: flex;
+    align-items: center;
+}
+.container .header #logo
+{
+    width: 80px;
+    height: 80px;
+}
+.container .header .logo #logo_topic
+{
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    color: #A5C9CA;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.container #para .search_bar
+{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    /* margin-top: 30px; */
+    display: flex;
+    gap: 15px;
+}
+.container #para .search_bar #city
+{
+    width: 200px;
+    padding: 10px; 
+    border-radius: 19px;
+   border-color: solid black;
+}
+.container .search_bar #btn
+{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #8d5ff8;
+    color: rgb(240, 174, 231);
+}
+.container .para
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('above.jpeg'); 
+    background-size: cover;
+    width: 400px;
+    height: 550px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+.container .para .para_content .list_cityname
+{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-top: 110px;
+}
+.container .para .para_content .degree
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 290px;
+    gap: 35px;
+}
+.container .para .para_content .degree #cel
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 550;
+}
+.container .para .para_content #hum
+{
+    background-color: rgb(187, 13, 240);
+    padding: 8px;
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 1px 1px 0px 0px rgb(109, 81, 100);
+}
+.container .para .para_content #hum .hum_img
+{
+    width: 30px;
+    height: 30px;
+}
+.container .para .para_content #hum .tem_hum
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.container .para .para_content #win
+{
+    background-color: rgb(187, 13, 240);
+    padding: 8px;
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 1px 1px 0px 0px rgb(109, 81, 100);
+}
+
+.container .para .para_content #win .tem_wind
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.container .para .para_content #win #bf2 .fa-wind
+{
+    color: black;
+    font-size: 25px;
+}
